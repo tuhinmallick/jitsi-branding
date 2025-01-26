@@ -1,0 +1,44 @@
+{
+    "backgroundColor": "#FFFFFF",
+    "backgroundImageUrl": "https://tuhinmallick.github.io/jitsi-branding/background.jpg",
+    "logoClickUrl": "https://callapro.ai",
+    "logoImageUrl": "https://tuhinmallick.github.io/jitsi-branding/logo.png",
+    "watermarkImageUrl": "https://tuhinmallick.github.io/jitsi-branding/watermark.png",
+    "avatarBackgrounds": [
+        "#FF5733",
+        "#33FF57",
+        "#3357FF",
+        "url(https://tuhinmallick.github.io/jitsi-branding/avatar-bg1.jpg)",
+        "url(https://tuhinmallick.github.io/jitsi-branding/avatar-bg2.jpg)"
+    ],
+    "premeetingBackground": "https://tuhinmallick.github.io/jitsi-branding/premeeting-bg.jpg",
+    "virtualBackgrounds": [
+        "https://tuhinmallick.github.io/jitsi-branding/virtual-bg1.jpg",
+        "https://tuhinmallick.github.io/jitsi-branding/virtual-bg2.jpg"
+    ],
+    "customTheme": {
+        "palette": {
+            "ui01": "#000000",
+            "ui02": "#333333",
+            "surface01": "#FFFFFF",
+            "action01": "#17A0DB",
+            "action01Hover": "#1785DB"
+        },
+        "typography": {
+            "labelRegular": {
+                "fontSize": 14,
+                "lineHeight": 20,
+                "fontWeight": 400
+            },
+            "labelBold": {
+                "fontSize": 16,
+                "lineHeight": 24,
+                "fontWeight": 600
+            }
+        }
+    },
+    "customIcons": {
+        "IconArrowUp": "https://tuhinmallick.github.io/jitsi-branding/icons/arrow-up.svg",
+        "IconDownload": "https://tuhinmallick.github.io/jitsi-branding/icons/download.svg"
+    }
+}
