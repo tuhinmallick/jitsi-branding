@@ -1,21 +1,37 @@
+<!DOCTYPE html>
 <html itemscope itemtype="http://schema.org/Product" prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--#include virtual="/base.html" -->
-    <!--#include virtual="/title.html" -->
-    <script>
-        (function() {
-            var windowName = window.name;
-            window.opener && window.opener.postMessage({
-                type: 'dropbox-login',
-                windowName,
-                url: window.location.href
-            }, window.location.origin);
-        })();
-    </script>
+    <title>Dropbox OAuth Callback</title>
+    <!-- Add any additional meta or styling directly here -->
 </head>
 <body>
+    <h1>Processing Dropbox Authentication...</h1>
+    <p>If this page does not close automatically, you can close it manually.</p>
+
+    <script>
+        (function() {
+            // Get the current window's name and URL
+            var windowName = window.name;
+            var currentUrl = window.location.href;
+
+            // Check if the page was opened as a popup
+            if (window.opener) {
+                // Post a message back to the parent window with the authorization code
+                window.opener.postMessage({
+                    type: 'dropbox-login',
+                    windowName: windowName,
+                    url: currentUrl
+                }, '*'); // Use '*' for cross-origin messaging; adjust if needed for security
+
+                // Optionally close the popup after sending the message
+                window.close();
+            } else {
+                console.error("This page was not opened as a popup.");
+            }
+        })();
+    </script>
 </body>
 </html>
