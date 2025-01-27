@@ -3,10 +3,6 @@
     "backgroundImageUrl": "https://tuhinmallick.github.io/jitsi-branding/jitsi-branding/background.png",
     "logoClickUrl": "https://callapro.ai",
     "logoImageUrl": "https://tuhinmallick.github.io/jitsi-branding/jitsi-branding/logo.svg",
-    "virtualBackgrounds": [
-        "https://tuhinmallick.github.io/jitsi-branding/jitsi-branding/watermark.svg",
-        "https://tuhinmallick.github.io/jitsi-branding/jitsi-branding/background.png"
-    ],
     "avatarBackgrounds": [
         "#FF5733",
         "#C70039",
