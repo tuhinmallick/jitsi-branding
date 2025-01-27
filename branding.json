@@ -1,7 +1,7 @@
 {
     "backgroundColor": "#FFFFFF",
-    "backgroundImageUrl": "https://tuhinmallick.github.io/jitsi-branding/background.jpg",
+    "backgroundImageUrl": "https://tuhinmallick.github.io/jitsi-branding/jitsi-branding/background.jpg",
     "logoClickUrl": "https://callapro.ai",
-    "logoImageUrl": "https://tuhinmallick.github.io/jitsi-branding/logo.svg",
-    "watermarkImageUrl": "https://tuhinmallick.github.io/jitsi-branding/watermark.svg"
+    "logoImageUrl": "https://tuhinmallick.github.io/jitsi-branding/jitsi-branding/logo.svg",
+    "watermarkImageUrl": "https://tuhinmallick.github.io/jitsi-branding/jitsi-branding/watermark.svg"
 }
